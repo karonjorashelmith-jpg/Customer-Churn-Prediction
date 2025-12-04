@@ -37,13 +37,13 @@ The dataset has information like:-
 ### 1. Churn distribution
 Churn and not churn distribution - 26.5% of customers switched to another firm. This also shows about 73.5% of customers remain with the company , showing healthy retention
 
-![Churn distribution](/churn%20images/churn%20distribution%20pie%20chart.png)
+![Churn Distribution Pie Chart](images/churn%20distribution%20pie%20chart.png)
 
 
 ### 2. Churn distribution by gender
 Churn distribution with respect to gender - Analysis of churn with respect to  gender shows there is negligible difference of churn rates between male and female. This means that gender is not a strong predictor of churn behaviour. Gender distribution seems balanced and healthy customer retention is evident.
 
-![Churn by gender](/churn%20images/churn%20by%20gender.png)
+![Churn by Gender](images/churn%20by%20gender.png)
 
 ### 3. Customer churn by contract type
 Customer churn by contract type - customers with month-to-month subscription have the highest churn compared to one and two year countries. 
@@ -54,29 +54,29 @@ Customer churn by contract type - customers with month-to-month subscription hav
  
  Customers using fiber optics churn the most but they also have the largest customer base. This could indicate that customers are not happy with the internet services. Customers using DSL churn less than the fiber optic which indicates more satisfaction with the service.
 
- ![](/churn%20images/churn%20by%20internet%20services.png)
+![Churn Distribution Pie Chart](images/churn%20distribution%20pie%20chart.png)
 
  ### 5. Payment method vs churn
 
  Payment method vs churn -The barchart shows that the Electronic check customers, churn the most while automatic pay churn the least. This group should be targeted when it comes to retention strategies.
 
- ![](/churn%20images/payment%20method%20by%20churn.png)
+ ![Payment Method by Churn](images/payment%20method%20by%20churn.png)
 
  ### 6. Tech suppport vs churn
   Customers with no TechSupport churn the most. They move to another provider where they feel supported.In contrast, customers with TechSupport showed a significantly lower churn rate. Availability of technical support play a big role in cusomer retention.
 
-![](/churn%20images/churn%20by%20tech%20support.png)
+![Churn by Tech Support](images/churn%20by%20tech%20support.png)
 
 ### 7. Online Security vs churn
 Customers with no online security churn the most.
 
-![](/churn%20images/churn%20by%20online%20security.png)
+![Churn by Online Security](images/churn%20by%20online%20security.png)
 
 ### 8. Paperless billing vs churn
 
  Paperless billing is associated with higher churn risk which makes it a meaningful predictor of churn.
 
-![](/churn%20images/paperless%20billing%20by%20churn.png)
+![Paperless Billing by Churn](images/paperless%20billing%20by%20churn.png)
 
 ### 9. Tenure vs churn
 Customers that churn more are those with  short tenures(months) while those with long term tenores seem loyal to the firm.
@@ -86,11 +86,11 @@ Customers that churn more are those with  short tenures(months) while those with
 ### 10. Monthly charges vs churn
 Customers that leave pay more monthly charges compared to those who stay. The median monthly charge for churn customers is about $80 while for those who stay its about $65.
 
-![](/churn%20images/churn%20by%20monthly%20charges.png)
+![Churn by Tenure Distribution](images/churn%20by%20tenure%20distribution.png)
 
 ### 11.
 Total charges vs churn - The distribution is right skewed which means that most customers have low total charges and few customers have high total charges.
-![](/churn%20images/density%20distribution%20of%20total%20charges.png)
+![Density Distribution of Total Charges](images/density%20distribution%20of%20total%20charges.png)
 
 
 ## Feature Engineering
@@ -105,7 +105,7 @@ This is to improve model accuracy, highlight customer behaviour, Reduce noise to
 
 The barchart below shows the number of services customers subscribe to and those that churn. Those with few services churn the most.
 
-![](/numservices%20vs%20count%20churn.png)
+![Churn by Number of Services](images/churn%20by%20num%20services.png)
 
 ## Feature selection
 ### Chi-square
@@ -147,7 +147,8 @@ train_test_split(X, y, test_size=0.2, stratify=y, random_state=42)
 Confusion Matrix:
  [[940  95]
  [179 195]]
- ![](/churn%20images/logistic%20regression%20graph.png)
+
+ ![Logistic Regression](images/logistic%20regression.png) 
 
 The model can correctly predict customer churn 80.5% of the time. the ROC-AUC is 0.846 which mean it does an excellent job separating the churners from non-churners.
 
@@ -169,7 +170,7 @@ Confusion Matrix:
   
  [202 172]]
 
- ![](/churn%20images/random%20forest.png)
+ ![Random Forest](images/random%20forest.png)
 
 The Random forest model correctly predicted churn/no churn 77% of the time. Although the model performed reasonably well, its ability to identify customers who are actually likely to churn was limited. 54% of the customers that left the model missed them. 
 
@@ -177,26 +178,9 @@ The confusion matrix shows that the model correctly identified 172 of all churne
 
 The model’s ROC-AUC score of 0.819 indicates fairly good discrimination between churners and non-churners. While the score shows that the model can separate the two groups better than chance, there is still room for improvement, especially in detecting churners more consistently.
 
-## 
-Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
-## Visualizations
 
-![Churn by Gender](images/churn%20by%20gender.png)
-![Churn by Internet Services](images/churn%20by%20internet%20services.png)
-![Churn by Monthly Charges](images/churn%20by%20monthly%20charges.png)
-![Churn by Number of Services](images/churn%20by%20num%20services.png)
-![Churn by Online Security](images/churn%20by%20online%20security.png)
-![Churn by Tech Support](images/churn%20by%20tech%20support.png)
-![Churn by Tenure Distribution](images/churn%20by%20tenure%20distribution.png)
-![Churn Distribution Pie Chart](images/churn%20distribution%20pie%20chart.png)
-![Contract Type vs Paperless](images/contract%20type%20vs%20paperless.png)
-![Customer Churn Photo](images/Customer-Churn%20photo.png)
-![Density Distribution of Total Charges](images/density%20distribution%20of%20total%20charges.png)
-![Logistic Regression](images/logistic%20regression.png)
-![Paperless Billing by Churn](images/paperless%20billing%20by%20churn.png)
-![Payment Method by Churn](images/payment%20method%20by%20churn.png)
-![Random Forest](images/random%20forest.png)
-![Running Photo](images/running%20photo.jpeg)
+
+
 
 
 
