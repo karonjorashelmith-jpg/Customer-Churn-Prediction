@@ -179,4 +179,24 @@ The model’s ROC-AUC score of 0.819 indicates fairly good discrimination betwee
 
 ## 
 Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
+## Visualizations
+
+![Churn by Gender](images/churn%20by%20gender.png)
+![Churn by Internet Services](images/churn%20by%20internet%20services.png)
+![Churn by Monthly Charges](images/churn%20by%20monthly%20charges.png)
+![Churn by Number of Services](images/churn%20by%20num%20services.png)
+![Churn by Online Security](images/churn%20by%20online%20security.png)
+![Churn by Tech Support](images/churn%20by%20tech%20support.png)
+![Churn by Tenure Distribution](images/churn%20by%20tenure%20distribution.png)
+![Churn Distribution Pie Chart](images/churn%20distribution%20pie%20chart.png)
+![Contract Type vs Paperless](images/contract%20type%20vs%20paperless.png)
+![Customer Churn Photo](images/Customer-Churn%20photo.png)
+![Density Distribution of Total Charges](images/density%20distribution%20of%20total%20charges.png)
+![Logistic Regression](images/logistic%20regression.png)
+![Paperless Billing by Churn](images/paperless%20billing%20by%20churn.png)
+![Payment Method by Churn](images/payment%20method%20by%20churn.png)
+![Random Forest](images/random%20forest.png)
+![Running Photo](images/running%20photo.jpeg)
+
+
 
