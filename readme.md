@@ -1,5 +1,5 @@
 # Customer Churn Prediction(Telcom Industry)
-![](/churn%20images%20-%20Copy/running%20photo.jpeg)
+![Running Photo](images/running%20photo.jpeg)
 ## Introduction
 Customer churn is when subscibers stop using services being provided by a firm. When customers leave, the firm loses revenue and are required to spend additional resources to attract new customers. Predicting churn before it happens becomes a vital thing for a company which helps them take action early.
 The goal of the project is to build a machine learning mdel that can predict whether a customer is at a high risk of churn.
@@ -48,7 +48,7 @@ Churn distribution with respect to gender - Analysis of churn with respect to  g
 ### 3. Customer churn by contract type
 Customer churn by contract type - customers with month-to-month subscription have the highest churn compared to one and two year countries. 
 
-![](/churn%20images/churn%20by%20contract.png)
+![Churn by Contract](images/churn%20by%20contract.png)
 
 ### 4. Internet services vs churn
  
